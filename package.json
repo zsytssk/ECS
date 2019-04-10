@@ -1,0 +1,36 @@
+{
+    "name": "yagl-ecs",
+    "version": "1.0.0",
+    "author": "Pierre Beaujeu",
+    "description": "Entity Component System for ES6",
+    "main": "dist/ecs.js",
+    "scripts": {
+        "webpack-dev": "webpack --mode development",
+        "webpack-dev-server": "webpack-dev-server --mode development",
+        "webpack-prod": "webpack --mode production"
+    },
+    "devDependencies": {
+        "ts-loader": "^4.3.1",
+        "tslint": "^5.10.0",
+        "tslint-config-prettier": "^1.13.0",
+        "typescript": "^3.2.0",
+        "webpack": "^4.11.1",
+        "webpack-cli": "^3.0.2",
+        "webpack-dev-server": "^3.1.4"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yagl/ecs.git"
+    },
+    "keywords": [
+        "game",
+        "gamedev",
+        "ecs",
+        "entity component system",
+        "design pattern"
+    ],
+    "licence": "MIT"
+}
