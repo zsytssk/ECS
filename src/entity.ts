@@ -5,7 +5,7 @@
 import { Component, ComProps, ComPropsObj } from './component';
 import { ECS } from './ecs';
 import System from './system';
-import { DefaultUIDGenerator, UIDGenerator } from './uid';
+import { DefaultUIDGenerator } from './uid';
 import { fastSplice } from './utils';
 
 /**

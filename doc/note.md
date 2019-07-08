@@ -1,8 +1,26 @@
+## unity ecs
+
+-   @todo 结合我自己的 model, 实现监听 component 的改变...
+
+-   system
+
+-   component
+    -   renderMesh
+-   entity
+
+*   @ques unity 如何监听修改 然后 changeui...
+
+-   system 应该要修改所有的相关的 component...
+
+## 2019-05-13 19:01:19
+
 -   @ques 如何更新数据 + 如何提取更新
 
     -   能不能将修改的 entity 放到数组中
     -   同时 entity 修改的 component 也放到特定的数组中...
     -   @ques 能不能监听到 component 中的特定的属性变化
+
+-   unity 是如何监听改变的...
 
 ## 2019-04-10 14:13:13
 
